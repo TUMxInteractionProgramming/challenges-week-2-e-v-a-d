@@ -68,14 +68,32 @@ ul {
 
 /* TAB BAR */
 
-button {
-    /* #2 #colourful #plusfive */
-    background-color: #CDDC39;
-    color: black;
-}
-
 #buttons {
     background-color: white;
+    border: none;
+    font-size: 13px;
+    text-align: center;
+}
+
+#buttons button {
+    /* #2 #colourful #plusfive */
+    background-color: white;
+    /* background-color: #CDDC39; */
+    color: black;
+    width: calc(33% - 32px);
+    height: 72px;
+    margin: 16px;
+    border: none;
+}
+
+#buttons img {
+    display: block;
+    margin: auto;
+    padding-bottom: 4px;
+}
+
+#buttons button.selected {
+    border-bottom: 4px solid #3F51B5;
 }
 
 /* --------------------------------- */
@@ -84,28 +102,43 @@ button {
 
 /* MESSAGES */
 
-p {
-    /* #2 #colorful #channelandchat */
+.message {
     background-color: white;
+    width: 80%;
+    margin-bottom: 8px;
+    margin-left: 2.5%;
 }
 
-h3 {
+.message.own {
+    margin-left: 17.5%;
+}
+
+.message p {
+    /* #2 #colorful #channelandchat */
+    background-color: white;
+    padding: 16px;
+}
+
+.message h3 {
     /* #2 #font #metadata is now medium */
     font-size: medium;
 }
 
-em {
+.message h3 em {
     /* #2 #font #remaining overrides the default italic appearance of em elements*/
     font-size: larger;
     font-style: normal;
 }
 
-.message {
-    background-color: white;
+.message h3 a {
+    color: black;
 }
 
-a {
+.message button {
+    /* #2 #colourful #plusfive */
+    background-color: #CDDC39;
     color: black;
+    text-transform: uppercase;
 }
 
 /* --------------------------------- */
