@@ -91,9 +91,9 @@ ul li img {
     background-color: white;
     /* background-color: #CDDC39; */
     color: black;
-    width: calc(33% - 32px);
+    width: 33%;
     height: 72px;
-    margin: 16px;
+    margin: 16 16 16 0px;
     border: none;
 }
 
@@ -114,7 +114,6 @@ ul li img {
 /* MESSAGES */
 
 .message {
-    background-color: white;
     width: 80%;
     margin-bottom: 8px;
     margin-left: 2.5%;
