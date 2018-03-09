@@ -51,14 +51,25 @@ h1 {
 
 /* CHANNELS LIST */
 
-h2 {
-    /* #2 #colorful #channelandchat */
-    background-color: white;
-}
-
 ul {
     background-color: white;
     list-style-type: none;
+}
+
+ul li.highlight {
+    border-left: 4px solid #3F51B5;
+}
+
+ul li {
+    padding: 16px;
+    font-size: 16px;
+    height: 49px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+ul li img{
+    vertical-align: middle;
 }
 
 
